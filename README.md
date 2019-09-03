@@ -1,0 +1,1 @@
+### Reference project [monorepo-starter](https://github.com/palmerhq/monorepo-starter)
