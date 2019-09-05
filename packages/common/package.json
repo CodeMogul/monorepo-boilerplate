@@ -1,25 +1,33 @@
 {
   "name": "@tools/common",
-  "version": "1.0.0",
-  "description": "",
-  "main": "build/index.js",
-  "module": "build/index.js",
-  "typings": "build/index.d.ts",
-  "scripts": {
-    "prepare": "tsc -p tsconfig.build.json",
-    "start": "tsc -p tsconfig.build.json -w"
+  "version": "0.1.0",
+  "description": "Contains common non-ui logic.",
+  "keywords": [
+    "common",
+    "logic"
+  ],
+  "author": "Siddhesh <siddhesh.nachane@bizongo.com>",
+  "homepage": "https://github.com/siddhesh-bizongo/monorepo-boilerplate#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-    "@types/node": "^8.0.28",
-    "@types/jest": "^22.1.1",
-    "jest": "^22.1.4",
-    "ts-jest": "^22.0.2",
-    "tslint": "^5.9.1",
-    "tslint-react": "^3.4.0",
-    "typescript": "2.6.2"
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddhesh-bizongo/monorepo-boilerplate.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/siddhesh-bizongo/monorepo-boilerplate/issues"
   }
 }
