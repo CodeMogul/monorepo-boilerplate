@@ -1,6 +1,6 @@
 {
   "name": "@monorepo/ui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "author": "Siddhesh <siddhesh.nachane@bizongo.com>",
   "license": "ISC",
@@ -33,6 +33,6 @@
     "typescript": "^3.6.3"
   },
   "dependencies": {
-    "@monorepo/common": "^0.1.0"
+    "@monorepo/common": "^0.1.1"
   }
 }
