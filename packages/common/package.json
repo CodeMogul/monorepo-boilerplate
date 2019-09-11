@@ -9,13 +9,12 @@
   "author": "Siddhesh <siddhesh.nachane@bizongo.com>",
   "homepage": "https://github.com/siddhesh-bizongo/monorepo-boilerplate#readme",
   "license": "ISC",
-  "main": "src/index.js",
+  "main": "build/index.js",
   "directories": {
-    "lib": "src",
-    "test": "__tests__"
+    "lib": "build"
   },
   "files": [
-    "src"
+    "build"
   ],
   "publishConfig": {
     "access": "public"
@@ -25,9 +24,14 @@
     "url": "git+https://github.com/siddhesh-bizongo/monorepo-boilerplate.git"
   },
   "scripts": {
+    "prepare": "tsc",
+    "build": "tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/siddhesh-bizongo/monorepo-boilerplate/issues"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.3"
   }
 }

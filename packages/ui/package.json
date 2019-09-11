@@ -4,15 +4,16 @@
   "description": "",
   "author": "Siddhesh <siddhesh.nachane@bizongo.com>",
   "license": "ISC",
-  "main": "lib/index.js",
+  "main": "build/index.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "build"
   },
   "files": [
-    "src"
+    "build"
   ],
   "scripts": {
+    "prepare": "tsc -p tsconfig.build.json",
+    "build": "tsc -p tsconfig.build.json",
     "storybook": "start-storybook -p 6006",
     "test": "echo \"Error: run tests from root\" && exit 1",
     "build-storybook": "build-storybook"
@@ -23,7 +24,13 @@
     "@storybook/addon-links": "^5.1.11",
     "@storybook/addons": "^5.1.11",
     "@storybook/react": "^5.1.11",
-    "babel-loader": "^8.0.6"
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@types/storybook__react": "^4.0.2",
+    "babel-loader": "^8.0.6",
+    "fork-ts-checker-webpack-plugin": "^1.5.0",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3"
   },
   "dependencies": {
     "@monorepo/common": "^0.1.0"
