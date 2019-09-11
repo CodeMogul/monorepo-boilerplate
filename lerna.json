@@ -5,7 +5,8 @@
   "command": {
     "version": {
       "allowBranch": [
-        "master"
+        "master",
+        "typescript-integration"
       ],
       "conventionalCommits": true
     }
