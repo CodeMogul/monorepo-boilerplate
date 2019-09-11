@@ -1,5 +1,5 @@
 {
-  "name": "@tools/ui",
+  "name": "@monorepo/ui",
   "version": "0.1.0",
   "description": "",
   "author": "Siddhesh <siddhesh.nachane@bizongo.com>",
@@ -10,7 +10,7 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "scripts": {
     "storybook": "start-storybook -p 6006",
@@ -25,5 +25,7 @@
     "@storybook/react": "^5.1.11",
     "babel-loader": "^8.0.6"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@monorepo/common": "^0.1.0"
+  }
 }

@@ -3,6 +3,7 @@ build
 *.log
 coverage
 .DS_Store
+yarn.lock
 
 # IDE
 .vscode

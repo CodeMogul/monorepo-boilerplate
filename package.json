@@ -15,5 +15,5 @@
   "workspaces": [
     "packages/*"
   ],
-  "name": "tools"
+  "name": "monorepo"
 }

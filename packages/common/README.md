@@ -1,8 +1,8 @@
-# `@tools/common`
+# `@monorepo/common`
 Contains common non-ui logic.
 
 ## Usage
 
 ```
-const common = require('@tools/common');
+const common = require('@monorepo/common');
 ```
